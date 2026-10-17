@@ -2,7 +2,7 @@
 
 MVP frontend del **Calendario Digital Único de Eventos de la FCFM**. Es una aplicación React pensada para la demo del proyecto de Evaluación de Proyectos de Software.
 
-> **Importante:** esta versión funciona solamente en local. No tiene usuarios reales, SSO, base de datos ni despliegue público. Los datos de la demo se guardan en el navegador usando `localStorage`.
+> **Importante:** esta es una demo frontend. No tiene usuarios reales, SSO ni base de datos. Los datos se guardan en el navegador usando `localStorage`. También puede verse publicada en GitHub Pages.
 
 ## Requisitos
 
@@ -25,6 +25,16 @@ Para generar una versión de producción y comprobar que el proyecto compila:
 ```bash
 npm run build
 ```
+
+## Publicación de la demo
+
+El repositorio publica automáticamente la demo en GitHub Pages cada vez que se hace `push` a `main`. El workflow está en `.github/workflows/deploy.yml`.
+
+La URL pública es:
+
+<https://diegoarredo.github.io/ProjectE/>
+
+La publicación sigue siendo solamente frontend: cada navegador tiene sus propios datos locales y no existe un backend compartido.
 
 ## Funcionalidades disponibles
 
